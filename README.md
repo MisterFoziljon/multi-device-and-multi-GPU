@@ -43,5 +43,14 @@ user@User$: export TF_CONFIG='{"cluster": {"worker": ["192.169.0.146:12345", "19
     - 192.169.0.146 ipga ega device uchun index:0
     - 192.169.0.128 ipga ega device uchun index:1
     - device lar soni ko'p bo'lsa, boshqa devicelarga 2, 3 va hokazo index beriladi.
-    - yoki ```train.py``` file har bir qurilma uchun o'z indexi bilan yoziladi: tf_config['task']['index'] = 1
+    - yoki ```train.py``` file har bir qurilma uchun o'z indexi bilan yoziladi:
 
+```python
+# Device 1
+tf_config['task']['index'] = 0
+```
+
+```python
+# Device 2
+tf_config['task']['index'] = 1
+```
