@@ -19,7 +19,7 @@
 * ``` TF_CONFIG ``` - har bir device ning iplari va ishchi sifatidagi indexlari keltirilgan konfiguratsiya. Uni terminal yordamida export qilish yoki kod yordamida ishga tushirish mumkin.
 
 
-** Kod yordamida ishga tushirish**
+**Kod yordamida ishga tushirish**
 
 ```python
  tf_config = {
@@ -30,7 +30,7 @@ os.environ['TF_CONFIG'] = json.dumps(tf_config)
 ```
 
 
-** Terminal yordamida ishga tushirish **
+**Terminal yordamida ishga tushirish**
 ```shell
 user@User$: export TF_CONFIG='{"cluster": {"worker": ["192.169.0.146:12345", "192.169.0.128:12345"]}, "task": {"index": 0, "type": "worker"}}'
 ```
