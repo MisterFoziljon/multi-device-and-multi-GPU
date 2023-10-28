@@ -1,2 +1,5 @@
-# multi-device-and-multi-GPU
-Train the model using multi device and multi gpu
+### Bitta tarmoqqa ulangan super kompyuterlarning GPU larini bir vaqtda parallel ishlashini ta'minlab beruvchi dastur.
+
+> [!Requirements]:
+> pip install tensorflow[and-cuda]
+
